@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar />
     <Sidebar />
+    <ProductCard />
     <router-view />
   </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
   import Sidebar from './components/shared/Sidebar.vue'
   import Navbar from './components/shared/Navbar.vue'
+  import ProductCard from './components/ProductCard.vue'
   export default {
     name: 'App',
     components: {
       Navbar,
-      Sidebar
+      Sidebar,
+      ProductCard
     }
   }
 </script>
