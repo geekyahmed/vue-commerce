@@ -5,6 +5,7 @@ import Vuesax from 'vuesax'
 import App from './App'
 import router from './router'
 import 'vuesax/dist/vuesax.css' //Vuesax styles
+import './assets/css/font-awesome.min.css'
 
 Vue.use(Vuesax)
 

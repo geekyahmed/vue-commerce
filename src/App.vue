@@ -1,22 +1,23 @@
 <template>
   <div id="app">
     <Navbar />
-    <Sidebar />
     <ProductCard />
     <router-view />
+    <Pagination />
   </div>
 </template>
 
 <script>
-  import Sidebar from './components/shared/Sidebar.vue'
   import Navbar from './components/shared/Navbar.vue'
   import ProductCard from './components/ProductCard.vue'
+  import Pagination from './components/Pagination.vue'
+
   export default {
     name: 'App',
     components: {
       Navbar,
-      Sidebar,
-      ProductCard
+      ProductCard,
+      Pagination
     }
   }
 </script>

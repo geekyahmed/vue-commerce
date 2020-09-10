@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="examplex">
-      <vs-navbar color="#1cc164" square text-white center-collapsed v-model="active">
+      <vs-navbar color="#1cc164" square text-white class="navbarx" v-model="active">
         <template #left>
           <img src="./assets/logo.png" alt="">
         </template>
